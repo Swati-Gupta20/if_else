@@ -15,7 +15,7 @@ if pin==pincode:
         if withdraw_amt<=balance:
             print("processing")
             print("collect your cash",withdraw_amt)
-            print("your current balance:",withdraw_amt-balance)
+            print("your current balance:",balance-withdraw_amt)
             print("thanks for visiting")
         else:
             print("insufficient amount")
